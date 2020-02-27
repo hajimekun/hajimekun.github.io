@@ -8,6 +8,7 @@ var loader = document.querySelector(".loader-wrapper");
 window.onload = () => {
   setTimeout( () => {
     loader.style.opacity = '0';
+    loader.style.zIndex = '-100';
     document.body.classList.remove('no-scroll')
   },2600)
 }
